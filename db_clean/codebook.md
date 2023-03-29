@@ -1,0 +1,18 @@
+- [titleId (string)] - a tconst, an alphanumeric unique identifier of the title
+- [titleType (string)] – which can be movie, tvSeries or tvMovie
+- [primaryTitle (string)] - the primary title of the movie
+- [originalTitle (string)] - the original title of the movie
+- [isAdult (int)] – 1 if it is an adult movie, 0 if it is not 
+- [startYear (int)] - the year the movie or tv show was first released 
+- [endYear (int)] - the year the show ended, in case of movies it is the same as startYear
+- [runtimeMinutes (int)] - duration in minutes
+- [genres (string)] - genres of the movie (up to 3)
+- [replicas (int)] - number of different versions of the movie
+- [regions (string)] - region where movie is released
+- [nconst (int)] - person identifier
+- [primaryName (string)] – name of the person
+- [birthYear (int)] - birth year of the person
+- [deathYear (int)] - death year of the person
+- [primaryProfession (string)] - profession of the person (can be more than 1), (actor,actress,producer...)
+- [averageRating (int)] - average rating of the movie
+- [numVotes (int)] - number of votes that the movie has
